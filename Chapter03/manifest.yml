@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: z2c-maguilera
+  host: z2c-maguilera
+  disk_quota: 1024M
+  services:
+    - speech-to-text-dxrbn-speech-to--1522425638225
